@@ -28,7 +28,12 @@
 		<input type="text" id="b" name="b"><br><br>
 		<label for "c"> Enter an integer for constant "c":</label>
 		<input type="text" id="c" name="c"><br><br>
-		<input type="submit" value="show graph" onclick>
+		<input type="submit" value="show graph" id="graph">
+			<script type="text/javascript">
+    document.getElementById("graph").onclick = function () {
+        location.href = "";
+    };
+</script>
 		<input type="submit" value="show roots">
 		<input type="submit" value="show axis of symmetry">
 		<input type="submit" value="show vertex">
